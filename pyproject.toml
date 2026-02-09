@@ -1,7 +1,8 @@
 [project]
 name = "ajp-graph"
 version = "0.1.0"
-description = "ScrapeGraphAI fork for the Brazilian Judiciary Protocol (AJP)" },
+description = "ScrapeGraphAI fork for the Brazilian Judiciary Protocol (AJP)" 
+author="Lucas Cardoso da Silva",
 ]
 
 dependencies = [
@@ -28,6 +29,13 @@ dependencies = [
     "duckduckgo-search>=8.1.1",
     "pydantic>=2.12.5",
     "scrapegraph-py>=1.44.0",
+    "pypdf>=5.0.0",
+    "pdfplumber>=0.11.0",
+    "pyHanko>=0.25.0",
+    "cryptography>=42.0.0",
+    "validate-docbr>=1.10.0",
+    "sqlmodel>=0.0.14",
+    "mcp>=1.0.0",
 ]
 
 readme = "README.md"
